@@ -1,0 +1,45 @@
+date:- 09/10/2024
+====================================================
+java Methods:- block of code performing some action which runs only when it is called.
+In the java there are two type of methods:- 1. user defined methods.
+                                            2. Standard library methods.
+a. Method Signature:-
+sum(int a , int b)
+Method name + Parameter List is called Method Signature.
+
+b. Access Specifier:-
+i.Public ii. private iii. protected iv. default (Static is non access modifier)
+
+c. Return type:-
+like int or string or float type which you Return by the function.
+
+d. Method Name:-
+in this example "Sum" is the method name.
+
+e. Parameters:-
+Parameters are int a, int b.
+
+f. Method Body:-
+the code is written in the method 
+example:-
+sum(int a , int b){
+    int cal = a+b;
+    sout("The result : "+ cal);
+    Return cal;
+}
+
+There are two types variables 
+1. Static variables (Single copy for Whole class).
+2. Instance variables (All objects make there own copy of Instance variable).
+
+=====Standard library Methods=====
+1. print():- About the print syntax we all know.
+2. sqrt():- Syntax = System.out.println(Math.sqrt());
+3. floor():- Syntax = System.out.println(Math.floor()); there is a another syntax 
+ceil():- Syntax = System.out.println(Math.ceil());
+these three are library defined methods.
+=======Packages=======
+Collection of similar classes, subclasses , interfaces.
+=======Constructor=======
+Special method used to initialize objects.
+There is two types of constructors : (i) default constructor (ii) Parameterize constructor.
